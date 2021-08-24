@@ -1,0 +1,172 @@
+.collaborate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 123px;
+}
+
+.c__block-one {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 177px;
+  padding-left: 115px;
+}
+
+.c__block-two {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 145px;
+  padding-top: 49px;
+  padding-left: 145px;
+}
+
+.c__progress-container {
+  display: flex;
+  width: 100%;
+  max-width: 336px;
+  justify-content: space-between;
+}
+
+.c__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #18216d;
+  max-width: 500px;
+}
+
+.c__progress-num {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #18216d;
+  margin-bottom: 9px;
+}
+
+.c__progress-img {
+  margin-bottom: 7px;
+}
+
+.c__progress-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #18216d;
+}
+
+@media screen and (max-width: 1320px) {
+  .c__block-one {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .c__block-two {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .c__company-logo:nth-child(5) {
+    display: none;
+  }
+
+  .c__company-logo:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .collaborate {
+    padding-top: 0;
+  }
+
+  .c__block-one {
+    flex-direction: column;
+  }
+
+  .c__progress-container {
+    max-width: none;
+    justify-content: space-around;
+  }
+
+  .c__description {
+    max-width: 800px;
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .c__block-two {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .c__company-logo {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .c__description {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .c__progress-num {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .c__description {
+    font-size: 20px;
+  }
+
+  .c__progress-container {
+    justify-content: space-evenly;
+  }
+
+  .c__block-one {
+    padding-left: 9px;
+  }
+
+  .c__progress-img {
+    height: 7px;
+  }
+
+  .c__description {
+    margin-bottom: 14px;
+  }
+
+  .c__progress-text {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  .c__progress-num {
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 4px;
+  }
+
+  .c__block-two {
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 21px;
+  }
+
+  .c__company-logo {
+    height: 16px;
+  }
+}

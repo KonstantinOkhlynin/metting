@@ -1,0 +1,11 @@
+@import url(./styles/vendor/default.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(./styles/root.css);
+@import url(./styles/wrapper.css);
+@import url(./styles/logo.css);
+@import url(./styles/button.css);
+@import url(./styles/header.css);
+@import url(./styles/description.css);
+@import url(./styles/collaborate.css);
+@import url(./styles/special.css);
+

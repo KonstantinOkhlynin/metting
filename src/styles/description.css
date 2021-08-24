@@ -1,0 +1,140 @@
+.description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.d__blocks {
+  display: flex;
+  padding-top: 49px;
+  padding-bottom: 130px;
+  position: relative;
+}
+
+.d__block-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 115px;
+  padding-top: 96px;
+}
+
+.d__block-img {
+  position: absolute;
+  right: 96px;
+}
+
+
+.d__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #18216d;
+  max-width: 500px;
+  margin-bottom: 16px;
+}
+
+.d__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 28px;
+  color: #18216d;
+  max-width: 500px;
+  margin-bottom: 34px;
+}
+
+@media screen and (max-width: 1320px) {
+  .d__block-text {
+    padding-left: 0;
+  }
+
+  .d__block-img {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .d__block-img {
+    position: absolute;
+    right: 0;
+    top: 90px;
+  }
+
+  .d__img {
+    width: 600px;
+  }
+
+  .d__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .d__block-img {
+    position: static;
+    padding-top: 50px;
+  }
+
+  .d__blocks {
+    position: static;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .d__block-text {
+    text-align: center;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .d__img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .d__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .d__img {
+    width: 400px;
+  }
+
+  .d__blocks {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .d__title {
+    font-size: 28px;
+    line-height: 27px;
+    margin-bottom: 19px;
+  }
+
+  .d__description {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 282px;
+    margin-bottom: 28px;
+  }
+
+  .d__img {
+    width: 351px;
+  }
+
+  .d__blocks {
+    padding-top: 42px;
+    padding-bottom: 55px;
+  }
+
+  .d__block-img {
+    padding-top: 42px;
+  }
+}
